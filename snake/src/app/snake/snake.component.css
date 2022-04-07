@@ -1,0 +1,17 @@
+.game-board {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(42, 1fr);
+  grid-template-rows: repeat(42, 1fr);
+}
+
+.snake {
+  background-color: rgb(6, 170, 0);
+  border: black 2px solid;
+}
+
+.food {
+  background-color: rgb(209, 2, 2);
+  border: black 2px solid;
+}
